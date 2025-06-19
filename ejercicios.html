@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Entrenamiento y dieta para aumentar masa muscular</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+  body {
+    margin: 0; background-color: #121212; color: #eee;
+    font-family: 'Roboto Slab', serif; line-height: 1.5;
+  }
+  header {
+    background: #b22222; padding: 20px; text-align: center;
+    font-size: 2rem; font-weight: 700; letter-spacing: 2px; color: #fff;
+    text-shadow: 0 0 10px #ff0000;
+  }
+  main {
+    max-width: 900px; margin: 20px auto; padding: 0 15px 50px 15px;
+  }
+  h2 {
+    color: #ff4444; border-bottom: 2px solid #ff4444; padding-bottom: 5px;
+    cursor: pointer;
+  }
+  .day {
+    background: #1f1f1f; border-radius: 8px; margin-bottom: 15px; padding: 15px 20px;
+    box-shadow: 0 0 10px #66000080;
+  }
+  .exercises {
+    margin-top: 10px; display: none;
+  }
+  .exercise {
+    display: flex; align-items: center; margin-bottom: 12px;
+    color: #fff; font-weight: 600;
+  }
+  .exercise img {
+    width: 80px; height: 80px; object-fit: cover;
+    border-radius: 6px; margin-right: 15px;
+    box-shadow: 0 0 6px #cc3333;
+  }
+  footer {
+    max-width: 900px; margin: 30px auto 30px; padding: 20px 15px;
+    background: #1f1f1f; border-radius: 8px; box-shadow: 0 0 10px #66000080;
+    color: #eee;
+  }
+  footer h2 {
+    color: #ff4444; margin-top: 0;
+  }
+</style>
+</head>
+<body>
+<header>Entrenamiento y dieta para aumentar masa muscular</header>
+<main>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Lunes - Pecho y Tríceps</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/KhK4rLk.png" alt="Flexiones clásicas" />
+      <span>Flexiones clásicas – 4x12</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/8t4XUqT.png" alt="Flexiones inclinadas" />
+      <span>Flexiones inclinadas (pies elevados) – 3x10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/4Ge0xoy.png" alt="Flexiones diamante" />
+      <span>Flexiones diamante (tríceps) – 3x8</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/FzFKQ7K.png" alt="Fondos entre sillas" />
+      <span>Fondos entre sillas – 4x10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/U1v6SZL.png" alt="Flexiones con mochila" />
+      <span>Flexiones con mochila – 3x6-8</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/bB3JX7u.png" alt="Plancha" />
+      <span>Plancha – 2x 1 minuto</span>
+    </div>
+  </div>
+</div>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Martes - Piernas y Glúteos</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/1aHqvLe.png" alt="Sentadillas con mochila" />
+      <span>Sentadillas con peso (mochila) – 4x12</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/xW2rJh9.png" alt="Zancadas" />
+      <span>Zancadas (lunges) – 3x10 por pierna</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/hQxNfMZ.png" alt="Puente de glúteos" />
+      <span>Puentes de glúteos – 4x15</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/cWn6hCX.png" alt="Sentadilla sumo" />
+      <span>Sentadilla sumo – 3x12</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/MrNAm4x.png" alt="Saltos al cajón" />
+      <span>Saltos al cajón o escalón – 3x8</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/pMrBvW3.png" alt="Estiramientos de pierna" />
+      <span>Estiramientos de pierna – 5 minutos</span>
+    </div>
+  </div>
+</div>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Miércoles - Espalda y Bíceps</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/a5lq7ns.png" alt="Remo con mochila" />
+      <span>Remo con mochila – 4x12</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/RX42q3B.png" alt="Pull ups" />
+      <span>Pull ups en barra (si tienes) – 3x6–10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/Bu5kTtK.png" alt="Remo unilateral" />
+      <span>Remo unilateral (mochila o botella) – 3x10 por brazo</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/I9FHQXD.png" alt="Curl bíceps" />
+      <span>Bíceps con botellas grandes – 3x12</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/ksjQ3h8.png" alt="Curl martillo" />
+      <span>Curl martillo – 3x10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/ghlJUOX.png" alt="Superman espalda baja" />
+      <span>Superman (espalda baja) – 3x20 seg</span>
+    </div>
+  </div>
+</div>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Jueves - Core (abdomen)</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/Mh2Lhdc.png" alt="Crunches" />
+      <span>Crunches lentos – 4x20</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/95tbOLf.png" alt="Elevaciones de piernas" />
+      <span>Elevaciones de piernas – 3x15</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/1IH6kxC.png" alt="Russian twists" />
+      <span>Russian twists – 3x20</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/4HrPYHA.png" alt="Plancha con mochila" />
+      <span>Plancha con mochila – 3x 1 min</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/0CpV1vA.png" alt="Mountain climbers" />
+      <span>Mountain climbers – 4x30 seg</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/n85yG8E.png" alt="Hollow hold" />
+      <span>Hollow hold – 2x30 seg</span>
+    </div>
+  </div>
+</div>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Viernes - Pecho y Espalda (Superseries)</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/KhK4rLk.png" alt="Flexiones clásicas" />
+      <span>Flexiones + Remo con mochila – 4 superseries</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/FzFKQ7K.png" alt="Fondos entre sillas" />
+      <span>Fondos entre sillas + Pull-ups – 3 superseries</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/8t4XUqT.png" alt="Flexiones inclinadas" />
+      <span>Flexiones inclinadas + Superman – 3 superseries</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/bB3JX7u.png" alt="Plancha lateral" />
+      <span>Plancha lateral – 2x30 seg por lado</span>
+    </div>
+  </div>
+</div>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Sábado - Full Body + Piernas Explosivas</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/xHAcEWh.png" alt="Sentadillas con salto" />
+      <span>Sentadillas con salto – 3x12</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/KhK4rLk.png" alt="Flexiones con palmada" />
+      <span>Flexiones con palmada – 3x8</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/xW2rJh9.png" alt="Lunges dinámicos" />
+      <span>Lunges dinámicos – 3x10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/QjHG1j7.png" alt="Burpees" />
+      <span>Burpees – 4x10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/KhK4rLk.png" alt="Flexiones normales" />
+      <span>Flexiones normales – 3x10</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/a5lq7ns.png" alt="Remo con mochila" />
+      <span>Remo con mochila – 3x10</span>
+    </div>
+  </div>
+</div>
+
+<div class="day">
+  <h2 onclick="toggleDay(this)">Domingo - Descanso activo</h2>
+  <div class="exercises">
+    <div class="exercise">
+      <img src="https://i.imgur.com/NW4KZTU.png" alt="Caminata" />
+      <span>Caminata de 30 min</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/k0u2pUw.png" alt="Estiramientos" />
+      <span>Estiramientos de todo el cuerpo</span>
+    </div>
+    <div class="exercise">
+      <img src="https://i.imgur.com/qIpQqxJ.png" alt="Respiración" />
+      <span>Respiración profunda / meditación</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h2 onclick="toggleDay(this)">Dieta recomendada para ganar masa muscular</h2>
+  <div class="exercises" style="display:none; flex-direction: column;">
+    <p><strong>Desayuno:</strong> Avena con leche, plátano, 2 huevos revueltos, un puñado de nueces.</p>
+    <p><strong>Media mañana:</strong> Yogur natural con frutas o un batido de proteína casero.</p>
+    <p><strong>Almuerzo:</strong> Pechuga de pollo, arroz integral, verduras al vapor.</p>
+    <p><strong>Merienda:</strong> Sándwich de pavo con pan integral y aguacate.</p>
+    <p><strong>Cena:</strong> Pescado o carne magra, patata asada y ensalada verde.</p>
+    <p><strong>Extras:</strong> Agua suficiente, evitar comidas procesadas, snacks saludables como frutas, semillas o frutos secos.</p>
+  </div>
+</section>
+
+</main>
+
+<script>
+  function toggleDay(el) {
+    const exercises = el.nextElementSibling;
+    if (!exercises) return;
+    if (exercises.style.display === 'flex' || exercises.style.display === 'block') {
+      exercises.style.display = 'none';
+    } else {
+      exercises.style.display = 'flex';
+      if(el.parentNode && el.parentNode.classList.contains('day')) {
+        exercises.style.flexDirection = 'row';
+      } else {
+        exercises.style.flexDirection = 'column';
+      }
+    }
+  }
+</script>
+</body>
+</html>
